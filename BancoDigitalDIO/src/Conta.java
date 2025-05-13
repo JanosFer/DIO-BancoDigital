@@ -63,4 +63,12 @@ public abstract class Conta implements IConta{
 	public void setNumAgencia(int numAgencia) {
 		this.numAgencia = numAgencia;
 	}
+
+	public Cliente getCliente() {
+		return cliente;
+	}
+	
+	public void setCliente(Cliente cliente) {
+		this.cliente = cliente;
+	}
 }
